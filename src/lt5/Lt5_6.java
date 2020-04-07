@@ -1,12 +1,12 @@
 package lt5;
 import java.util.Scanner;
 
-// ÊäÈëÒ»¸öÕûÊı£¬È»ºóÊä³öËüµÄ·­×ªĞÎÊ½
-// ÀıÈç£ºÊäÈë1234, Êä³ö4321
+// è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼Œç„¶åè¾“å‡ºå®ƒçš„ç¿»è½¬å½¢å¼
+// ä¾‹å¦‚ï¼šè¾“å…¥1234, è¾“å‡º4321
 public class Lt5_6 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÒ»¸öÕûÊı: ");
+		System.out.print("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°: ");
 		int n = input.nextInt();
 		for (; n!=0; n/=10) {
 			int v = n % 10;

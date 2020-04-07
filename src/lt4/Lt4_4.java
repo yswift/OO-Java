@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Lt4_4 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÔÂ·İ: ");
+		System.out.print("è¯·è¾“å…¥æœˆä»½: ");
 		int month = input.nextInt();
 		
 		int days;
 		if (month == 2) {
-			days = 28; // ÔİÊ±²»¿¼ÂÇÊÇ·ñÈòÄê
+			days = 28; // æš‚æ—¶ä¸è€ƒè™‘æ˜¯å¦é—°å¹´
 		} else if (month==4 || month==6 || month==9 || month==11) {
 			days = 30;
 		} else {
 			days = 31;
 		}
-		System.out.println(month + "ÔÂ·İÓĞ" + days + "Ìì");
+		System.out.println(month + "æœˆä»½æœ‰" + days + "å¤©");
 		input.close();
 	}
 

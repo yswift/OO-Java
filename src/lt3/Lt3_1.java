@@ -6,19 +6,19 @@ public class Lt3_1 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("ÇëÊäÈëÄãµÄĞÕÃû£º");
+		System.out.print("è¯·è¾“å…¥ä½ çš„å§“åï¼š");
 		String name = in.next(); 
-		System.out.print("ÇëÊäÈëÄãÄêÁä£º");
+		System.out.print("è¯·è¾“å…¥ä½ å¹´é¾„ï¼š");
 		int age = in.nextInt(); 
-		System.out.print("ÇëÊäÈëÄãÉí¸ß£º");
+		System.out.print("è¯·è¾“å…¥ä½ èº«é«˜ï¼š");
 		double height = in.nextDouble();
 		
-		System.out.println("ÄãºÃ£¬" + name);
-		System.out.println("ÄãµÄÄêÁäÊÇ£º" + age);
-		System.out.println("ÄãµÄÉí¸ßÊÇ£º" + height);
+		System.out.println("ä½ å¥½ï¼Œ" + name);
+		System.out.println("ä½ çš„å¹´é¾„æ˜¯ï¼š" + age);
+		System.out.println("ä½ çš„èº«é«˜æ˜¯ï¼š" + height);
 		
 		// TODO 
-        // ×÷Òµ1: Ìí¼ÓÊäÈë¡¢Êä³öÌåÖØµÄ´úÂë
+        // ä½œä¸š1: æ·»åŠ è¾“å…¥ã€è¾“å‡ºä½“é‡çš„ä»£ç 
 		
 		in.close();
 	}

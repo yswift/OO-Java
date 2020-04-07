@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Lt4_1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÒ»¸öÕûÊı: ");
+		System.out.print("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°: ");
 		int n = input.nextInt();
 		
 		if (n % 2 == 0) {
-			System.out.println(n + "ÊÇÅ¼Êı");
+			System.out.println(n + "æ˜¯å¶æ•°");
 		} else {
-			System.out.println(n + "ÊÇÆæÊı");
+			System.out.println(n + "æ˜¯å¥‡æ•°");
 		}
 		input.close();
 	}

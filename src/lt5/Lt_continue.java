@@ -2,14 +2,14 @@ package lt5;
 
 public class Lt_continue {
 	public static void main(String[] args) {
-		// ÓÃÁ½ÖÖ·½·¨Êä³ö1-10ÖĞ3µÄ±¶Êı
-		System.out.println("·½·¨1");
+		// ç”¨ä¸¤ç§æ–¹æ³•è¾“å‡º1-10ä¸­3çš„å€æ•°
+		System.out.println("æ–¹æ³•1");
 		for (int i=1; i<=10; i++) {
 			if (i % 3 == 0) {
 				System.out.println(i);
 			}
 		}
-		System.out.println("·½·¨2£¬Ê¹ÓÃcontinue");
+		System.out.println("æ–¹æ³•2ï¼Œä½¿ç”¨continue");
 		for (int i=1; i<=10; i++) {
 			if (i % 3 != 0) {
 				continue;

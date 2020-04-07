@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Lt4_2 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÒ»¸öÕûÊı: ");
+		System.out.print("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°: ");
 		int n = input.nextInt();
-		String result = "ÊÇÆæÊı"; // ¸øresult¸³³õÖµ
+		String result = "æ˜¯å¥‡æ•°"; // ç»™resultèµ‹åˆå€¼
 		if (n % 2 == 0) {
-			result = "ÊÇÅ¼Êı"; // µ±Âú×ãÄ³¸öÌõ¼şÊ±£¬ĞŞ¸ÄresultµÄÖµ
+			result = "æ˜¯å¶æ•°"; // å½“æ»¡è¶³æŸä¸ªæ¡ä»¶æ—¶ï¼Œä¿®æ”¹resultçš„å€¼
 		}
 		System.out.println(n + result);
 		input.close();

@@ -6,14 +6,14 @@ public class Lt3_3 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("ÇëÊäÈëÒ»¸öÕûÊı£º");
+		System.out.print("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼š");
 		int n = in.nextInt(); 
 		
-		System.out.println("ÄãÊäÈëµÄÊÇ£º" + n);
-		System.out.println("Õâ¸öÊı´óÓÚ5£º" + (n > 5));
-		System.out.println("Õâ¸öÊıĞ¡ÓÚ100£º" + (n < 100));
-		System.out.println("Õâ¸öÊıÊÇÅ¼Êı£º" + (n % 2 == 0));
-		// TODO ×÷Òµ3
-        // ÅĞ¶ÏÊäÈëµÄÊıÊÇ·ñÄÜ±»3Õû³ı
+		System.out.println("ä½ è¾“å…¥çš„æ˜¯ï¼š" + n);
+		System.out.println("è¿™ä¸ªæ•°å¤§äº5ï¼š" + (n > 5));
+		System.out.println("è¿™ä¸ªæ•°å°äº100ï¼š" + (n < 100));
+		System.out.println("è¿™ä¸ªæ•°æ˜¯å¶æ•°ï¼š" + (n % 2 == 0));
+		// TODO ä½œä¸š3
+        // åˆ¤æ–­è¾“å…¥çš„æ•°æ˜¯å¦èƒ½è¢«3æ•´é™¤
 	}
 }

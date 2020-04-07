@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Lt4_3 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÄê·İ: ");
+		System.out.print("è¯·è¾“å…¥å¹´ä»½: ");
 		int year = input.nextInt();
 		
 		if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
-			System.out.println(year + "ÊÇÈòÄê");
+			System.out.println(year + "æ˜¯é—°å¹´");
 		} else {
-			System.out.println(year + "²»ÊÇÈòÄê");
+			System.out.println(year + "ä¸æ˜¯é—°å¹´");
 		}
 		input.close();
 	}

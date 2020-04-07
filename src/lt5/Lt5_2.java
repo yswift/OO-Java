@@ -2,7 +2,7 @@ package lt5;
 
 public class Lt5_2 {
 	public static void main(String[] args) {
-		// ¼ÆËã1+2+...+10µÄºÍ
+		// è®¡ç®—1+2+...+10çš„å’Œ
 		int i = 1;
 		int sum = 0;
 		while (i<=10) {

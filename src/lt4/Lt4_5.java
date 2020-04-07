@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Lt4_5 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÔÂ·İ: ");
+		System.out.print("è¯·è¾“å…¥æœˆä»½: ");
 		int month = input.nextInt();
 		
 		int days;
 		switch (month) {
 		case 2:
-			days = 28; break; // ×¢Òâ£¬ÕâÀïÒªÓĞbreak,½áÊøswitch
-		case 4: // ÕâÀïÃ»ÓĞbreak£¬ÒÑÂú×ãÌõ¼ş£¬ºóĞøµÄÌõ¼ş²»ÔÙÅĞ¶Ï£¬Ö±µ½break½áÊøswitch
+			days = 28; break; // æ³¨æ„ï¼Œè¿™é‡Œè¦æœ‰break,ç»“æŸswitch
+		case 4: // è¿™é‡Œæ²¡æœ‰breakï¼Œå·²æ»¡è¶³æ¡ä»¶ï¼Œåç»­çš„æ¡ä»¶ä¸å†åˆ¤æ–­ï¼Œç›´åˆ°breakç»“æŸswitch
 		case 6:
 		case 9:
 		case 11:
@@ -20,7 +20,7 @@ public class Lt4_5 {
 		default:
 			days = 31;	
 		}
-		System.out.println(month + "ÔÂ·İÓĞ" + days + "Ìì");
+		System.out.println(month + "æœˆä»½æœ‰" + days + "å¤©");
 		input.close();
 	}
 

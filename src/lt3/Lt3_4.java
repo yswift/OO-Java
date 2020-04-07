@@ -6,17 +6,17 @@ public class Lt3_4 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("ÇëÊäÈëÄê£º");
+		System.out.print("è¯·è¾“å…¥å¹´ï¼š");
 		int year = in.nextInt();
 
 		boolean isLeapYear = (year % 4 == 0);
-		// TODO ×÷Òµ4
-		// ÉÏÃæµÄ´úÂëÓĞbug£¬1900²»ÊÇÈòÄê£¬µ«½á¹ûÊÇÈòÄê£¬
-		// ÇëĞŞ¸Ä´úÂë£¬ÈÃ¼ÆËã½á¹ûÕıÈ·
-		System.out.println("ÊÇÈòÄê£º" + isLeapYear);
+		// TODO ä½œä¸š4
+		// ä¸Šé¢çš„ä»£ç æœ‰bugï¼Œ1900ä¸æ˜¯é—°å¹´ï¼Œä½†ç»“æœæ˜¯é—°å¹´ï¼Œ
+		// è¯·ä¿®æ”¹ä»£ç ï¼Œè®©è®¡ç®—ç»“æœæ­£ç¡®
+		System.out.println("æ˜¯é—°å¹´ï¼š" + isLeapYear);
 	}
 }
-//×¢ÒâÇø·Ö:
-//Êı×Ö0£¬×ÖÄ¸O
-//Êı×Ö1£¬Ğ¡Ğ´µÄl(L)£¬´óĞ´µÄI(i)
+//æ³¨æ„åŒºåˆ†:
+//æ•°å­—0ï¼Œå­—æ¯O
+//æ•°å­—1ï¼Œå°å†™çš„l(L)ï¼Œå¤§å†™çš„I(i)
 
