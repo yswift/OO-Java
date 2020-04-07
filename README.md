@@ -1,5 +1,5 @@
-# รๆฯ๒ถิฯ๓ ิดย๋
+# ้ขๅ‘ๅฏน่ฑก ๆบ็ 
 
-ะลผฦืจาตรๆฯ๒ถิฯ๓ณฬะ๒ษ่ผฦิดย๋
+ไฟก่ฎกไธ“ไธ้ขๅ‘ๅฏน่ฑก็จๅบ่ฎพ่ฎกๆบ็ 
 
-[อ๘าณฐๆ Eclipse](https://gitpod.io/#https://github.com/yswift/OO-Java)
+[็ฝ‘้กต็ Eclipse](https://gitpod.io/#https://github.com/yswift/OO-Java)

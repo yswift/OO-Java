@@ -14,6 +14,7 @@ public class Lt3_4 {
 		// 上面的代码有bug，1900不是闰年，但结果是闰年，
 		// 请修改代码，让计算结果正确
 		System.out.println("是闰年：" + isLeapYear);
+		in.close();
 	}
 }
 //注意区分:

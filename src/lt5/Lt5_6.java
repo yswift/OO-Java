@@ -12,5 +12,7 @@ public class Lt5_6 {
 			int v = n % 10;
 			System.out.print(v);
 		}
+		System.out.println();
+		input.close();
 	}
 }

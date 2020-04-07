@@ -15,5 +15,6 @@ public class Lt3_3 {
 		System.out.println("这个数是偶数：" + (n % 2 == 0));
 		// TODO 作业3
         // 判断输入的数是否能被3整除
+		in.close();
 	}
 }
