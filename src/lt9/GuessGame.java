@@ -5,7 +5,7 @@ public class GuessGame {
 	// 定义玩家对象
 	Player p1;
 
-	// 启动游戏的方法
+	// 启动游戏
 	public void startGame() {
 		// 建立玩家对象
 		Player p1 = new Player();
